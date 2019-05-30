@@ -102,7 +102,7 @@ AppCompat 라이브러리를 뜯어보면 해당 구조를 파악 할 수 있다
 </style>
 ```
 
-![theme_inheritance](C:\Users\minch\Documents\이직준비\theme_inheritance.png)
+![theme_inheritance](https://user-images.githubusercontent.com/8017683/58634652-c1818e80-8326-11e9-849e-6e95387f7c52.png)
 
 
 
@@ -110,7 +110,7 @@ AppCompat 라이브러리를 뜯어보면 해당 구조를 파악 할 수 있다
 
 android:colorControlNormal 과 colorControlNormal의 차이는 무엇일까?
 
-![theme_inheritance](C:\Users\minch\Documents\이직준비\android_framework_color_control_normal.png)
+![android_framework_color_control_normal](https://user-images.githubusercontent.com/8017683/58634649-bf1f3480-8326-11e9-8ca2-be9d703dd49e.png)
 
 android:colorControlNormal 는 Android SDK platforms에 선언되어 있다.
 
@@ -118,7 +118,7 @@ Android Framework 에 있는 속성의 경우 ```android``` prefix 사용해야 
 
 
 
-![appcompat_color_control_normal](C:\Users\minch\Documents\이직준비\appcompat_color_control_normal.png)
+![appcompat_color_control_normal](https://user-images.githubusercontent.com/8017683/58634649-bf1f3480-8326-11e9-8ca2-be9d703dd49e.png)
 
 colorControlNormal 은 SupportLibrary 에 선언되어 있다.
 
