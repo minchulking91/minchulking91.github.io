@@ -135,11 +135,17 @@ colorControlNormal 은 SupportLibrary 에 선언되어 있다.
 > 7. Applying certain View-specific styling, such as setting a `TextAppearance` on a `TextView`
 
 1번의 경우 SpannableString 등으로 character 나 paragraph 단위에서 지정한 스타일이다.
+
 2번의 경우 코드를 통해 지정한 속성. 이런 경우 이미 View는 xml 에서 inflate 되었으니 나중에 지정한게 우선순위를 가지는게 자연스럽다.
+
 3번의 경우 xml 에서 개별적인 뷰에 지정한 속성이다.
+
 4번의 경우는 스타일을 통해서 지정된 속성이다.
+
 5번의 경우는 theme 에 지정된 textViewStyle, buttonStyle 같은 기본 스타일을 말한다.
+
 6번의 경우 상위 뷰 혹은 액티비티, 어플리케이션의 테마에 지정된 속성이다. (상위 뷰가 여러 개 인데 각각 다른 테마를 가지고 있다면 최상위에 있는 테마부터 적용이 된다. 테마는 덮어씌워지므로 중복되는 속성이 있을 경우 최하위 테마가 남는다.)
+
 7번의 경우는 특정 뷰에만 지정되는 스타일이다. textAppearane 같은 것들이 있다.
 
 6번과 7번이 조금 어색할 수 있는데 예시를 보면 쉽다.
