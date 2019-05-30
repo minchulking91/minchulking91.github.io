@@ -4,8 +4,6 @@ date: 2019-05-30 22:00:00 +0900
 categories: android theme style
 ---
 
-# 안드로이드 테마와 스타일을 언제 써야 할까? 
-
   InputTextLayout 에 디자인을 적용하다가 InputTextLayout 은 단순히 style 만 가지고는 원하는 대로 디자인을 할 수 없다. 이를 위해 테마와 스타일에 관한 많은 글을 찾아봤지만 잘못 설명 되어 있는 글들이 많고 style 의 경우 resource definition 을 찾아 들어가는 탐색을 하려고 해도 테마간 구조가 복잡하게 엮여있어 탐색이 힘들기 때문에 공식 문서를 통해 정리를 해보려 한다.
 
   많은 글들에서 style attribute (style="@style/...") 로 적용 할 수 있는 attribute 와 theme attribute(android:theme="@style/...") 로 적용 할 수 있는 attribute 가 따로 있다고 말하지만 이건 완벽하게 맞는 설명은 아니다. 경우에 따라 같은 style 을 style attribute 로 적용할 경우와 theme attribute 로 적용할 경우 결과가 달라지긴 하지만 기본적으로 style 이 가지고 있는 속성들을 적용한다. 공식 문서에는 다음과 같이 나와있다.
