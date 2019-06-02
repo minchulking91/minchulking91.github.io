@@ -124,7 +124,7 @@ colorControlNormal 은 SupportLibrary 에 선언되어 있다.
 
 스타일을 적용할 때는 우선순위를 잘 알아야 한다. 공식 문서에 나와있는 우선순위는 다음과 같다.
 
-> When choosing how to style your app, be mindful of Android's style hierarchy. In general, you should use themes and styles as much as possible for consistency. If you've specified the same attributes in multiple places, the list below determines which attributes are ultimately applied. The list is ordered ㅂfrom highest precedence to lowest:
+> When choosing how to style your app, be mindful of Android's style hierarchy. In general, you should use themes and styles as much as possible for consistency. If you've specified the same attributes in multiple places, the list below determines which attributes are ultimately applied. The list is ordered from highest precedence to lowest:
 >
 > 1. Applying character- or paragraph-level styling via text spans to `TextView`-derived classes
 > 2. Applying attributes programmatically
@@ -243,7 +243,7 @@ colorControlNormal 은 SupportLibrary 에 선언되어 있다.
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:textViewStyle">@style/Widget.AppCompat.TextView</item>
+        <item name="android:textViewStyle">@style/MyTextViewStyle</item>
         <!--<item name="android:textColor">#00F</item>-->
     </style>
 
