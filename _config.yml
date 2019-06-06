@@ -19,12 +19,12 @@ locale                   : "ko-KR"
 title                    : "MemoryFactory"
 title_separator          : "-"
 name                     : "SleepTimeGuaranteed"
-description              : "An amazing website."
+#description              : "An amazing website."
 url                      : "https://minchulking91.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+#baseurl                  : # the subpath of your site, e.g. "/blog"
+#repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+#teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+#logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -105,28 +105,28 @@ analytics:
 
 
 # Site Author
-author:
-  name             : "수면시간보장"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "당신의 수면시간, 보장되었다."
-  location         : #"Somewhere"
-  email            : "minchulking91@gmail.com"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+#author:
+#  name             : "수면시간보장"
+#  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+#  bio              : "당신의 수면시간, 보장되었다."
+#  location         : #"Somewhere"
+#  email            : "minchulking91@gmail.com"
+#  links:
+#    - label: "Email"
+#      icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://king9.tistory.com/"
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://king9.tistory.com/"
 #    - label: "Twitter"
 #      icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
 #    - label: "Facebook"
 #      icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/minchulking91"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/minchulking91"
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
